@@ -1,0 +1,293 @@
+{
+	"info": {
+		"_postman_id": "a1120088-e4dd-4af3-862f-772d655c9314",
+		"name": "TakeToHome",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "test-gateway",
+			"item": [
+				{
+					"name": "http://localhost:9191/creditcards/saveCreditCard",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"creditCardNumber\": 5113164815700916,\r\n    \"email\":\"krifanada@gmail.com\",\r\n    \"name\":\"nada\",\r\n    \"securityCode\":\"911\",\r\n    \"expiration\":\"2021-12-28\",\r\n    \"maxCredit\":\"5000.00\",\r\n    \"availableCredit\":\"600.5\",\r\n    \"status\":1\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9191/creditcards/saveCreditCard",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9191",
+							"path": [
+								"creditcards",
+								"saveCreditCard"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9191/creditcards/nada",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9191/creditcards/nada",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9191",
+							"path": [
+								"creditcards",
+								"nada"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9191/users/saveUser",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"nada\",\r\n    \"email\":\"krifanada@gmail.com\",\r\n    \"password\":\"admin123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9191/users/saveUser",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9191",
+							"path": [
+								"users",
+								"saveUser"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9191/users/nada",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9191/users/nada",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9191",
+							"path": [
+								"users",
+								"nada"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "test-creditcard",
+			"item": [
+				{
+					"name": "http://localhost:9092/creditcards/saveCreditCard",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"creditCardNumber\": 4024007106035073,\r\n    \"email\":\"krifabalkiss@gmail.com\",\r\n    \"name\":\"balkiss\",\r\n    \"securityCode\":\"891\",\r\n    \"expiration\":\"2021-12-28\",\r\n    \"maxCredit\":\"5000.00\",\r\n    \"availableCredit\":\"600.5\",\r\n    \"status\":1\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9092/creditcards/saveCreditCard",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9092",
+							"path": [
+								"creditcards",
+								"saveCreditCard"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9092/creditcards/balkiss",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "  {\r\n      \"creditCardNumber\": 4929396237587656,\r\n      \"name\": \"nada-kriifa\",\r\n     \"securityCode\":\"123\", \"expiration\":\"2018-07-26\", \"maxCredit\":5000.00, \"availableCredit\": 3000.96, \"status\":1\r\n    }",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9092/creditcards/balkiss",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9092",
+							"path": [
+								"creditcards",
+								"balkiss"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9092/creditcards/saveCreditCard",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"creditCardNumber\": 5113164815700916,\r\n    \"email\":\"krifanada@gmail.com\",\r\n    \"name\":\"nada\",\r\n    \"securityCode\":\"911\",\r\n    \"expiration\":\"2021-12-28\",\r\n    \"maxCredit\":\"5000.00\",\r\n    \"availableCredit\":\"600.5\",\r\n    \"status\":1\r\n\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9092/creditcards/saveCreditCard",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9092",
+							"path": [
+								"creditcards",
+								"saveCreditCard"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "test-userService",
+			"item": [
+				{
+					"name": "http://localhost:9093/users/saveUser",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"balkiss\",\r\n    \"email\":\"krifabalkiss@gmail.com\",\r\n    \"password\":\"admin123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9093/users/saveUser",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9093",
+							"path": [
+								"users",
+								"saveUser"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9093/users/balkiss",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:9093/users/balkiss",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9093",
+							"path": [
+								"users",
+								"balkiss"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "http://localhost:9093/users/nada",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n    \"name\":\"nada\",\r\n    \"email\":\"krifanada@gmail.com\",\r\n    \"password\":\"admin1223\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "http://localhost:9093/users/nada",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "9093",
+							"path": [
+								"users",
+								"nada"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
