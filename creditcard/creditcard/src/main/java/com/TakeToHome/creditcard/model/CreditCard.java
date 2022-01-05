@@ -13,7 +13,7 @@ import org.hibernate.validator.constraints.Length;
 
 import java.util.Date;
 
-@Data
+
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
