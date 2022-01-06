@@ -2,18 +2,19 @@
 
 ## creditcard Service
 
-Spring Boot REST API for credit card processing This Api should allow to add new credit card accounts and view them as a list.
- REST Endpoints was be implemented
+Spring Boot REST API for credit card processing This Api should allow to add new credit card accounts and view them as a list.  
+
+ REST Endpoints was be implemented  
 
  “SaveCreditcard" will create a new credit card for a given cardNum,name,email, securityCode, expiration, maxCredit, availableCredit and status
-Card numbers are be validated using Mod 10 algorithm (Hand code , didn’t use a library)
+Card numbers are be validated using Mod 10 algorithm (Hand code , didn’t use a library)  
 New cards start with a £0 balance
-for cards not compatible with Mod 10 , return an error
- "GetByName" returns all cards in the system for the user name given
+for cards not compatible with Mod 10 , return an error  
+ "GetByName" returns all cards in the system for the user name given  
 
- "Get all" returns all cards in the system
+ "Get all" returns all cards in the system  
 
-Use an in-memory DB to store the information while the API is running, so that it can store the credit card information
+Use an in-memory DB to store the information while the API is running, so that it can store the credit card information  
 
 Don’t achieve yet : Create a pattern given in Card_Type class to differentiate between Visa_Card and Master_Card
 Validation
